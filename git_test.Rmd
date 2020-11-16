@@ -7,8 +7,18 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
 ```
 
 Hi Joseph, let's collaborate!
 
 Hey allison sounds great!
+
+Cool collaboration is working! 
+Here's a graph I started...can you change the point colors? 
+
+```{r}
+ggplot(data = mtcars, aes(x = mpg, y = qsec)) +
+  geom_point()
+```
+
