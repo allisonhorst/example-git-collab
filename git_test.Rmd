@@ -17,8 +17,10 @@ Hey allison sounds great!
 Cool collaboration is working! 
 Here's a graph I started...can you change the point colors? 
 
+Sweet! Looks awesome! Thanks for letting me pick the color
+
 ```{r}
 ggplot(data = mtcars, aes(x = mpg, y = qsec)) +
-  geom_point()
+  geom_point(color = "blue" )
 ```
 
